@@ -1,0 +1,12 @@
+{
+  "node_version": "20",
+  "dependencies": [
+    "."
+  ],
+  "graphs": {
+    "agent": "./apps/agents/src/agent/graph.ts:graph",
+    "email_agent": "./apps/agents/src/email_agent/index.ts:agent",
+    "calendar_agent": "./apps/agents/src/meeting_agent/index.ts:agent"
+  },
+  "env": ".env"
+}
