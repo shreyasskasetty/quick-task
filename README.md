@@ -40,12 +40,11 @@ Quick Task Agents is a modular set of services and interfaces designed to help b
    git clone <repo-url>
    ```
 2. **Configure composio API key** for email access, calendar APIs, and voice services in each agent’s `.env` file.
-3. **Run each component** in its directory, e.g.:
+3. **Install libraries** Install all the libraries required
+4. **Run each component** in its directory, e.g.:
    ```bash
-   cd email-listener-agent && npm install && npm start
+   cd email-listener-agent && python main.py
    ```
-4. **Interact** via the chat agent (CLI or web UI) or the voice frontend.
+5. **Interact** via the chat agent (CLI or web UI) or the voice frontend.
 ---
-
-Build your personal assistant—automate routine tasks and stay focused on what matters most!
 
