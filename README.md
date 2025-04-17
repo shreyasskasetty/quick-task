@@ -5,7 +5,7 @@ Quick Task Agents is a modular set of services and interfaces designed to help b
 ## Agents & Components
 
 - **email-listener-agent**  
-  A background daemon that monitors your inbox, extracts actionable items (e.g., “Please review the report by Friday”), and prompts you to approve or edit extracted tasks before adding them to your to‑do list.
+  A background daemon that monitors your inbox, extracts actionable items (e.g., “Please review the report by Friday”), and adds the tasks to your to‑do list.
 
 - **quick-task-chat-agent**  
   The central chat interface handling user commands. It interprets requests like scheduling meetings, sending emails, adding reminders, and fetching top tasks based on deadlines and stored context.
