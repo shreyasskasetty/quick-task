@@ -75,14 +75,11 @@ You can also add and manage integrations via the Composio CLI, which is useful f
 
 4. **Add an Integration**  
    ```bash
-   composio add github -e "EntityName"
+   composio add gmail -e "EntityName"
    ```  
-   Replace `github` with the integration name (e.g., `slack`, `google-calendar`) and `"EntityName"` with your desired profile name. The CLI guides you through any OAuth or API key steps.
+   Replace `gmail` with the integration name and `"EntityName"` with your desired profile name. The CLI guides you through any OAuth or API key steps.
 
-5. **Retrieve Integration ID**  
-   After setup, note the `integration_id` displayed in the CLI output or the dashboard. You will use this ID in your application configuration.
-
-6. **(Optional) Configure Integration Settings**  
+5. **(Optional) Configure Integration Settings**  
    - For OAuth-based apps, choose between Composio’s default OAuth app or your own credentials.  
    - For API key–based apps, have the end user provide their own keys during connection.
 
