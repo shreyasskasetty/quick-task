@@ -20,6 +20,7 @@ A Python-based email listener and task extractor using Composio Dev and Gmail in
     - [agents/](#agents)
     - [graph/](#graph)
     - [listeners/](#listeners)
+  - [Diagrams](#diagrams)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -79,6 +80,12 @@ You can also add and manage integrations via the Composio CLI, which is useful f
    ```  
    Replace `gmail` with the integration name and `"EntityName"` with your desired profile name. The CLI guides you through any OAuth or API key steps.
 
+   You will need two integrations for this project:
+   1. Googletasks
+   2. Gmail
+
+   Make sure the above two apps are integrated
+   
 5. **(Optional) Configure Integration Settings**  
    - For OAuth-based apps, choose between Composio’s default OAuth app or your own credentials.  
    - For API key–based apps, have the end user provide their own keys during connection.
@@ -165,6 +172,20 @@ python main.py
 - **utils.py**: Helper functions for request validation, logging, and error handling.
 
 ---
+
+
+## Diagrams
+Below are visual representations of the project’s key workflows:
+
+**1. Agent Graph**
+Illustrates the internal AI agent workflow, showing how tasks move from classification to extraction and creation.
+
+<img src="static/agent_graph.png" alt="Agent Graph" width="500" height="600"/>
+
+**2. Flow Diagram**
+Shows the end-to-end process from incoming Gmail messages through Composio, the listener, AI classification, and final task creation in Google Tasks.
+<img src="static/flow_diagram.png" alt="Agent Graph" width="400" height="1000"/>
+
 
 ## Contributing
 1. Fork the repository.
