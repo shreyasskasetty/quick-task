@@ -1,26 +1,27 @@
-**Quick Task Email Listener**
+# Quick Task Email Listener
 
 A Python-based email listener and task extractor using Composio Dev and Gmail integration. This service listens for incoming emails, uses an AI agent to identify actionable tasks, and forwards extracted tasks to Google Tasks.
 
 ---
 
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Setup \& Installation](#setup--installation)
-  - [1. Composio Dev Setup](#1-composio-dev-setup)
-  - [2. Adding Composio Integrations Using the CLI](#2-adding-composio-integrations-using-the-cli)
-  - [3. Project Setup](#3-project-setup)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Module Descriptions](#module-descriptions)
-  - [agents/](#agents)
-  - [graph/](#graph)
-  - [listeners/](#listeners)
-- [Contributing](#contributing)
-- [License](#license)
+- [Quick Task Email Listener](#quick-task-email-listener)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Prerequisites](#prerequisites)
+  - [Setup \& Installation](#setup--installation)
+    - [1. Composio Dev Setup](#1-composio-dev-setup)
+    - [2. Adding Composio Integrations Using the CLI](#2-adding-composio-integrations-using-the-cli)
+    - [3. Project Setup](#3-project-setup)
+  - [Configuration](#configuration)
+  - [Usage](#usage)
+  - [Project Structure](#project-structure)
+  - [Module Descriptions](#module-descriptions)
+    - [agents/](#agents)
+    - [graph/](#graph)
+    - [listeners/](#listeners)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ---
 
