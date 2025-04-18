@@ -1,9 +1,9 @@
 from dotenv import load_dotenv
 import os
 from listeners import EmailListener
+from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv(".env")
+load_dotenv()
 
 # Ensure required environment variables are set
 if not os.getenv("OPENAI_API_KEY"):

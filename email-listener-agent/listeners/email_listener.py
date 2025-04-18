@@ -4,6 +4,7 @@ from agents import *
 from config import COMPOSIO_API_KEY
 from graph.nodes import create_graph
 from listeners.utils import extract_email_details
+from dotenv import load_dotenv
 class EmailListener:
     def __init__(self):
         self.composio_toolset = ComposioToolSet(api_key=COMPOSIO_API_KEY)
