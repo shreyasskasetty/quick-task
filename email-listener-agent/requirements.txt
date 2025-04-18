@@ -5,3 +5,4 @@ langchain_openai
 pydantic
 IPython
 dotenv
+composio-core
