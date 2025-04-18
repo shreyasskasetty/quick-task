@@ -103,7 +103,7 @@ pnpm dev
 ```
 .
 ├── README.md
-├── langgraph.json           # Workflow definition for Supervisor & sub-agents
+├── langgraph.json           # configuration file for langgraph server
 ├── apps
 │   ├── agents               # Supervisor & agent codebase
 │   │   ├── src
