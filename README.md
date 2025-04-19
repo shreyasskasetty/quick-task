@@ -2,6 +2,17 @@
 
 Quick Task Agents is a modular set of services and interfaces designed to help busy professionals manage day‑to‑day tasks through natural language interactions—via chat or voice. Leveraging four core components, the system can schedule meetings, send emails, add calendar reminders, surface top-priority tasks, and automatically extract to‑dos from incoming emails.
 
+## Demo Video
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/7E7uXJyFoS8"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
 ## Agents & Components
 
 - **email-listener-agent**  
